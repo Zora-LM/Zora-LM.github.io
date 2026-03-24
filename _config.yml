@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Mei Li / Assiatant Professor"
+title                    : "Mei Li（李梅）"
 title_separator          : "-"
 name                     : &name "Mei Li"
 description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -24,9 +24,9 @@ repository               : "Zora-LM.github.io"
 author:
   # Biographic information
   avatar           : "profile.jpg"
-  name             : "Your Sidebar Name"
+  name             : "Mei Li（李梅）"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "I am a Lecturer at Yangzhou University, School of Information and Artificial Intelligence (School of Industrial Software). I obtained my Ph.D. in Computer Science and Technology from Nankai University in June 2024. My research lies at the intersection of artificial intelligence and computational biology, focusing on drug–target interaction prediction. I am particularly interested in leveraging graph neural networks and causal inference to improve the robustness, generalization, and interpretability of AI models. My long-term goal is to develop reliable AI-driven methods for biomedical applications."
   location         : "Yangzhou, Jiangsu, China"
   employer         : "Yangzhou University"
   uri              : # URL
