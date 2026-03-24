@@ -234,6 +234,16 @@ collections:
    # output: true
   #  permalink: /:collection/:path/
 
+  nav:
+  - title: "Home"
+    url: "/home/"
+  #- title: "CV"
+  #  url: "/cv/"
+  #- title: "Talks"
+   # url: "/talks/"
+  - title: "Publications"
+    url: "/publications/"
+
 
 # These settings control how pages and collections are included in the site
 defaults:
