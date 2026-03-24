@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "About"
-permalink: /about/
+permalink: /
 ---
 
 I am a Lecturer at Yangzhou University, College of Information and Artificial Intelligence (School of Industrial Software). I received my Ph.D. in Computer Science and Technology from Nankai University in 2024.
