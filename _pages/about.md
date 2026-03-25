@@ -4,7 +4,7 @@ title: "About"
 permalink: /
 ---
 
-I am a Lecturer at Yangzhou University, College of Information and Artificial Intelligence (School of Industrial Software). I received my Ph.D. in Computer Science and Technology from Nankai University in 2024.
+I am a Lecturer at Yangzhou University, College of Information and Artificial Intelligence (School of Industrial Software). I obtained my Ph.D. degree in Computer Science and Technology from Nankai University in 2024.
 
 My research lies at the intersection of graph representation learning and causal AI for biomedical applications. I focus on developing robust, generalizable, and interpretable machine learning models for complex biological systems and biomedical data.
 
