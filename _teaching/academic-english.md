@@ -8,3 +8,5 @@ semester: "2025–2026 第二学期"
 location: "扬州大学扬子津校区西区"
 permalink: /teaching/academic-english/
 ---
+
+This course focuses on academic writing, presentation skills, and reading scientific literature.
