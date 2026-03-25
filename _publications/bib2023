@@ -1,0 +1,17 @@
+title: "Metapath aggregated heterogeneous graph neural network for drug-target interaction prediction"
+collection: publications
+category: manuscripts
+date: 2023-01-10
+venue: "Briefings in Bioinformatics"
+volume: 24
+issue: 1
+pages: "bbac578"
+paperurl: "https://www.sciencedirect.com/science/article/abs/pii/S0031320325003619"
+
+authors:
+  - name: "Mei Li"
+    highlight: true       # 控制加粗（你自己）
+    corresponding: false  # 是否加 *
+  - name: "Xiangrui Cai"
+  - name: "Sihan Xu"
+  - name: "Hua Ji"
