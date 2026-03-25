@@ -1,10 +1,10 @@
 ---
 title: "专业英语"
 collection: teaching
-type: "研究生"
-permalink: /teaching/2015-spring-teaching-1
+type: "Graduate course"
 venue: "信息学院"
 date: 2026-02-01
+semester: "2025–2026 第二学期"
 location: "扬州大学扬子津校区西区"
+permalink: /teaching/academic-english/
 ---
-
