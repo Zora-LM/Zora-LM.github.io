@@ -3,12 +3,20 @@ layout: archive
 title: "Teaching"
 permalink: /teaching/
 author_profile: true
-collection: teaching
 ---
 
-<!-- 可选：自定义说明 -->
 <p>
   This page lists courses I have taught, including undergraduate and graduate teaching.
 </p>
 
-{{ site.teaching | size }}
+{% for post in site.teaching reversed %}
+  <div style="margin-bottom: 25px;">
+    <h3>{{ post.title }}</h3>
+    <p>
+      <strong>{{ post.type }}</strong><br>
+      {{ post.venue }}<br>
+      {{ post.semester }}<br>
+      {{ post.location }}
+    </p>
+  </div>
+{% endfor %}
