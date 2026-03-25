@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* Ph.D Computer Science and Technology, Nankai University, 2024
+* Ph.D in Computer Science and Technology, Nankai University, 2024
 * M.S. in Jekyll, GitHub University, 2014
 * B.S. in GitHub, GitHub University, 2012
 
