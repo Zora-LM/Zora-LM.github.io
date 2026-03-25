@@ -27,15 +27,13 @@
       </div>
     {% endif %}
 
-    {% comment %}
-      === 一行标准引用（核心部分）===
-    {% endcomment %}
+    {% comment %} === 一行标准引用（核心部分）=== {% endcomment %}
     {% if post.authors and post.title %}
       <p>
 
         {% comment %} ===== 作者 ===== {% endcomment %}
         {% for author in post.authors %}
-          {% if forloop.first == false %}, {% endif %}
+          {% if forloop.first == false %},{% endif %}
 
           {% if author.highlight %}
             <strong>{{ author.name }}</strong>{% if author.corresponding %}*{% endif %}
@@ -43,9 +41,7 @@
             {{ author.name }}{% if author.corresponding %}*{% endif %}
           {% endif %}
 
-          {% if forloop.last == false and forloop.index == forloop.length - 1 %}
-            , and
-          {% endif %}
+          {% if forloop.last == false and forloop.index == forloop.length - 1 %} and{% endif %}
         {% endfor %}.
 
         {% comment %} ===== 标题（可点击） ===== {% endcomment %}
@@ -58,8 +54,8 @@
         {% comment %} ===== 会议/期刊信息 ===== {% endcomment %}
         {% if post.venue %}
           <i>{{ post.venue }}</i>
-          {% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}
-          {% if post.pages %}: {{ post.pages }}{% endif %}.
+          {% if post.date %},{{ post.date | date: "%Y" }}{% endif %}
+          {% if post.pages %}:{{ post.pages }}{% endif %}.
         {% endif %}
 
       </p>
